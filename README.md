@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎡 Wheel of Fortune Party Game
 
-## Getting Started
+A fun interactive party game where players spin a wheel to receive hilarious challenges! Perfect for parties, team building, or just having fun with friends.
 
-First, run the development server:
+![Game Interface]
+
+## ✨ What It Does
+
+- **Spin the Wheel**: Interactive wheel with realistic physics
+- **15 Fun Challenges**: From dancing to celebrity impressions
+- **Multiplayer**: 2-8 players with custom names
+- **Scoring System**: Points for completing challenges
+- **Responsive Design**: Works on all devices
+
+![Game Setup]
+## 🛠 Built With
+
+- **[Next.js 15](https://nextjs.org/)** - React framework
+- **[React 19](https://reactjs.org/)** - UI library
+- **[TypeScript](https://www.typescriptlang.org/)** - Type safety
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Styling
+- **[Geist Font](https://vercel.com/font)** - Typography
+
+## 🚀 Quick Start
 
 ```bash
+# Clone and install
+git clone https://github.com/your-username/wheel-of-fortune-game.git
+cd wheel-of-fortune-game
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to play!
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![Gameplay]
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎮 How to Play
 
-## Learn More
+1. **Setup**: Add players and choose game settings
+2. **Spin**: Click to spin the wheel
+3. **Challenge**: Complete the fun punishment
+4. **Score**: Get points for completing challenges
+5. **Win**: Highest score wins!
 
-To learn more about Next.js, take a look at the following resources:
+![Challenges]
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🎭 Example Challenges
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Do 20 jumping jacks while singing
+- Tell a joke in a funny accent
+- Act like a chicken for 1 minute
+- Do your best celebrity impression
+- Dance like no one's watching
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+src/
+├── app/           # Next.js app router
+├── components/    # React components  
+└── lib/          # Game data & utilities
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Deploy
+
+Deploy easily to [Vercel](https://vercel.com):
+
+```bash
+npm run build
+```
+
+## 📄 License
+
+MIT License - feel free to use and modify!
+
+---
+
+**🎊 Made for creating fun moments with friends! 🎊**
